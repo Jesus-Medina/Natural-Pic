@@ -30,6 +30,7 @@ export default function Home() {
                 onClick={() => changeFilled(photo.id)}
               >
                 <Heart filled={photo.liked} />
+                <p>{photo.alt}</p>
               </div>
             )
           })
